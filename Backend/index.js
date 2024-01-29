@@ -9,7 +9,7 @@ const server = createServer(app);
 const Room = require('./models/room');
 const { Console } = require('node:console');
 const io = new Server(server);
-const DB = process.env.DB;
+const DB ="mongodb+srv://kaushikvishal479:GTQwSLSc6ytcI72L@cluster0.d3ynypg.mongodb.net/";
 
 app.use(express.json());
 
