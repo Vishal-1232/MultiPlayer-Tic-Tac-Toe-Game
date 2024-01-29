@@ -43,7 +43,7 @@ io.on('connection', (socket) => {
         // tell client room has been created, goto next page
         io.to(roomId).emit("createRoomSuccess",room);
       }catch (e){
-          Console.log(e);
+          console.log(e);
       }
       
     });
